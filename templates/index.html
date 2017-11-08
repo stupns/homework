@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'base.html' %}
+{% block index %}
+    <p>pages in db:</p>
+    <a href="{{'page/one'}}">One</a><br>
+    <a href="{{'page/two'}}">Two</a><br>
+    <a href="{{'page/three'}}">Three</a><br>
+    <a href="{{'page/four'}}">Four</a><br>
+ <h1>Hello Valerii</h1>
+ <style type="text/css">
+   h1 {
+    font-size: 390%;
+    padding-top: 50px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336;
+    text-align: center;
+   }
+    p,a{
+        padding-left: 50px;
+    }
+  </style>
+
+ {% endblock %}
+</body>
+</html>

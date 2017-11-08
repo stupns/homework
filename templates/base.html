@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+            <h2><a href="{{''}}">Site in BD</a></h2>
+				<div class="comm">
+				<ul>
+					<div class="comment">
+						<li><a href="{{'one'}}">Обо мне</a></li>
+					</div>
+					<div class="comment">
+						<div>
+							<li><a href="{{'two'}}">О проекте</a></li>
+						</div>
+					</div>
+					<div class="comment">
+						<div>
+							<li><a href="{{'free'}}">Украина</a></li>
+						</div>
+					</div>
+                    <div class="comment">
+						<div>
+							<li><a href="{{'four'}}">Робота</a></li>
+						</div>
+					</div>
+				</ul>
+                </div>
+        </div>
+</div>
+
+ <style type="text/css">
+.container{
+    height: 100px;
+    font-size: 27px;
+    background-color: cornsilk;
+    width: 100%;
+}
+ul {
+    padding-right: 100px;
+    list-style-type: none;
+    float: right;
+}
+
+body{
+    max-width:100%;
+    margin: 0;
+}
+.comment {
+    padding-right: 20px;
+    display: inline-block;
+}
+h2 {
+    color: #91226e;
+    float: left;
+    padding: 0 28px;
+}
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+  </style>
+{% block index %}
+{% endblock %}
+</body>
+</html>
